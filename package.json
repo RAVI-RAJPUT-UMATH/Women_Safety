@@ -1,0 +1,35 @@
+{
+  "name": "women-safety-app",
+  "version": "1.0.0",
+  "description": "Women Safety Application with Emergency SOS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "client": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "twilio": "^4.11.0",
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.3.1",
+    "@twilio/voice-sdk": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "concurrently": "^7.0.0",
+    "style-loader": "^3.3.1",
+    "css-loader": "^6.7.1"
+  }
+}
