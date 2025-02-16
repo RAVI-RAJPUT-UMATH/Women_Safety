@@ -111,12 +111,7 @@ Make sure you are using a modern browser that supports:
 - 🎤 **MediaRecorder API** (For audio recording)  
 - 🔄 **Service Workers** (For offline support)  
 - 🔔 **Notifications API** (For emergency alerts)  
-```
-
-Just copy and paste it into your README file! 🚀 Let me know if you need any changes.
-
-### prototype (developed for identation round)
-1. Visit: [Women Safety App](https://21pk.github.io/Women_safety/) 
+  
 
 ### Privacy & Security
 - Location data is only shared during active emergencies
@@ -149,7 +144,7 @@ Just copy and paste it into your README file! 🚀 Let me know if you need any c
 - Ambulance: 108
 
 ## Team Information
-- Project developed for Women Safety Hackathon 
+- Project developed for Women Safety 
 - Team committed to creating technology for social impact
 - Focus on practical, accessible solutions for real-world problems
 
