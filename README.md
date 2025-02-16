@@ -39,6 +39,51 @@ A progressive web application (PWA) designed to enhance women's safety through i
 - WebSocket for real-time communication
 - Font Awesome for UI elements
 
+### Local Development Setup
+After the "Installation" section and before "Privacy & Security", let's add:
+
+### Local Development Setup
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/RAVI-RAJPUT-UMATH/Women_Safety.git
+   cd Women_Safety
+
+
+### Setup Local Server
+You can use any local server. Some options:
+Python: python -m http.server 8000
+Node.js: Install http-server using npm install -g http-server then run http-server
+VS Code: Use "Live Server" extension
+Access the Application
+Open your browser and navigate to:
+If using Python: http://localhost:8000
+If using http-server: http://localhost:8080
+If using Live Server: http://localhost:5500
+Enable Required Permissions
+Allow location access when prompted
+Allow microphone access for audio recording features
+Enable notifications for emergency alerts
+Testing the Features
+Test the SOS button functionality
+Verify location tracking is working
+Test audio recording capabilities
+Try submitting a test complaint
+
+
+###Project Structure
+"""index.html - Main application interface
+app.js - Core application logic
+styles.css - Application styling
+density-visualization.js - Location visualization
+service-worker.js - Offline functionality
+manifest.json - PWA configuration"""
+Note: Make sure you have a modern web browser with support for:
+
+Geolocation API
+MediaRecorder API
+Service Workers
+Notifications API
+
 ### Installation
 1. Visit: [Women Safety App](https://21pk.github.io/Women_safety/)
 2. Click "Install App" when prompted
