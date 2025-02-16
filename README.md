@@ -50,44 +50,51 @@ After the "Installation" section and before "Privacy & Security", let's add:
 
 
 ### Setup Local Server
-You can use any local server. Some options:
-Python: python -m http.server 8000
-Node.js: Install http-server using npm install -g http-server then run http-server
-VS Code: Use "Live Server" extension
-Access the Application
-Open your browser and navigate to:
-If using Python: http://localhost:8000
-If using http-server: http://localhost:8080
-If using Live Server: http://localhost:5500
-Enable Required Permissions
-Allow location access when prompted
-Allow microphone access for audio recording features
-Enable notifications for emergency alerts
-Testing the Features
-Test the SOS button functionality
-Verify location tracking is working
-Test audio recording capabilities
-Try submitting a test complaint
+
+####You can use any local server. Some options:
+
+-Python: python -m http.server 8000
+-Node.js: Install http-server using npm install -g http-server then run http-server
+-VS Code: Use "Live Server" extension
+
+###Access the Application
+####Open your browser and navigate to:
+
+-If using Python: http://localhost:8000
+-If using http-server: http://localhost:8080
+-If using Live Server: http://localhost:5500
+
+###Enable Required Permissions
+
+-Allow location access when prompted
+-Allow microphone access for audio recording features
+-Enable notifications for emergency alerts
+-Testing the Features
+-Test the SOS button functionality
+-Verify location tracking is working
+-Test audio recording capabilities
+-Try submitting a test complaint
 
 
 ###Project Structure
-"""index.html - Main application interface
-app.js - Core application logic
-styles.css - Application styling
-density-visualization.js - Location visualization
-service-worker.js - Offline functionality
-manifest.json - PWA configuration"""
+
+-index.html - Main application interface
+-app.js - Core application logic
+-styles.css - Application styling
+-density-visualization.js - Location visualization
+-service-worker.js - Offline functionality
+-manifest.json - PWA configuration"""
+
+
 Note: Make sure you have a modern web browser with support for:
 
-Geolocation API
-MediaRecorder API
-Service Workers
-Notifications API
+-Geolocation API
+-MediaRecorder API
+-Service Workers
+-Notifications API
 
-### Installation
-1. Visit: [Women Safety App](https://21pk.github.io/Women_safety/)
-2. Click "Install App" when prompted
-3. The app will be installed on your device and can be accessed offline
+### prototype (developed for identation round)
+1. Visit: [Women Safety App](https://21pk.github.io/Women_safety/) 
 
 ### Privacy & Security
 - Location data is only shared during active emergencies
