@@ -42,56 +42,78 @@ A progressive web application (PWA) designed to enhance women's safety through i
 ### Local Development Setup
 After the "Installation" section and before "Privacy & Security", let's add:
 
-### Local Development Setup
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/RAVI-RAJPUT-UMATH/Women_Safety.git
-   cd Women_Safety
+Here’s the formatted section ready for direct pasting into your README file:  
 
+```
+## Local Development Setup  
 
-### Setup Local Server
+### 1. Clone the Repository  
+```bash
+git clone https://github.com/RAVI-RAJPUT-UMATH/Women_Safety.git
+cd Women_Safety
+```
 
-- **You can use any local server. Some options**:
+### 2. Setup Local Server  
+You can use any local server to run the application:  
 
--Python: python -m http.server 8000
--Node.js: Install http-server using npm install -g http-server then run http-server
--VS Code: Use "Live Server" extension
+- **Python**:  
+  ```bash
+  python -m http.server 8000
+  ```  
+- **Node.js** (Install http-server globally first):  
+  ```bash
+  npm install -g http-server  
+  http-server
+  ```  
+- **VS Code**: Use the `"Live Server"` extension for easy hosting.  
 
-###Access the Application
-####Open your browser and navigate to:
+### 3. Access the Application  
+Once the server is running, open your browser and navigate to:  
 
--If using Python: http://localhost:8000
--If using http-server: http://localhost:8080
--If using Live Server: http://localhost:5500
+- **Python Server**: [http://localhost:8000](http://localhost:8000)  
+- **http-server (Node.js)**: [http://localhost:8080](http://localhost:8080)  
+- **Live Server (VS Code)**: [http://localhost:5500](http://localhost:5500)  
 
-###Enable Required Permissions
+### 4. Enable Required Permissions  
+To ensure the application functions properly, allow the following permissions when prompted:  
 
--Allow location access when prompted
--Allow microphone access for audio recording features
--Enable notifications for emergency alerts
--Testing the Features
--Test the SOS button functionality
--Verify location tracking is working
--Test audio recording capabilities
--Try submitting a test complaint
+- **Location Access**: Required for real-time tracking.  
+- **Microphone Access**: Needed for audio recording features.  
+- **Notifications**: Enables emergency alerts.  
 
+### 5. Testing the Features  
+After setup, test the key functionalities:  
 
-###Project Structure
+- ✅ Verify the **SOS button** functionality.  
+- ✅ Ensure **location tracking** is working.  
+- ✅ Test **audio recording** capabilities.  
+- ✅ Try submitting a **test complaint**.  
 
--index.html - Main application interface
--app.js - Core application logic
--styles.css - Application styling
--density-visualization.js - Location visualization
--service-worker.js - Offline functionality
--manifest.json - PWA configuration"""
+---
 
+## Project Structure  
 
-Note: Make sure you have a modern web browser with support for:
+| File | Description |
+|------|-------------|
+| `index.html` | Main application interface |
+| `app.js` | Core application logic |
+| `styles.css` | Application styling |
+| `density-visualization.js` | Location visualization |
+| `service-worker.js` | Offline functionality |
+| `manifest.json` | PWA configuration |
 
--Geolocation API
--MediaRecorder API
--Service Workers
--Notifications API
+---
+
+### **Browser Requirements**  
+Make sure you are using a modern browser that supports:  
+
+- 🌍 **Geolocation API** (For location tracking)  
+- 🎤 **MediaRecorder API** (For audio recording)  
+- 🔄 **Service Workers** (For offline support)  
+- 🔔 **Notifications API** (For emergency alerts)  
+```
+
+Just copy and paste it into your README file! 🚀 Let me know if you need any changes.
 
 ### prototype (developed for identation round)
 1. Visit: [Women Safety App](https://21pk.github.io/Women_safety/) 
