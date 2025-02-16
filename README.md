@@ -51,7 +51,7 @@ After the "Installation" section and before "Privacy & Security", let's add:
 
 ### Setup Local Server
 
-####You can use any local server. Some options:
+- **You can use any local server. Some options**:
 
 -Python: python -m http.server 8000
 -Node.js: Install http-server using npm install -g http-server then run http-server
