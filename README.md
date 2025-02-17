@@ -1,3 +1,8 @@
+# Team Tech Vanguard Presents
+## Traffic Rule Violation Detection and Notification System https://github.com/pawankushwahh/Traffic-management-and-women-safety.git : Automated detection of traffic rule violations using computer vision.and notifying authority and violator and file e-challan
+## Signal Automation (https://github.com/pawankushwahh/Signal_Automation : An AI-driven system for optimizing traffic signals based on real-time traffic density.
+##  Women Safety SOS** (This repository): A quick emergency response system for women's safety.
+
 # Women Safety - Emergency SOS Application 
 
 ## Project Overview
